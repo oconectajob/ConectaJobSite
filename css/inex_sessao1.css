@@ -1,0 +1,73 @@
+.sobre {
+  height: 40rem;
+  width: 100%;
+  background-image: url("../images/baner_capa_fundo1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-top-left-radius: 13%;
+  border-bottom-left-radius: 13%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.titulo_sobre {
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  margin: 2%;
+}
+
+.conteudo_sobre {
+  color: #ffffff;
+  text-align: center;
+  width: 50%;
+  margin: 2%;
+  font-size: 24px;
+  margin-bottom: 4rem;
+}
+
+.sobre img {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s;
+}
+
+.sobre img:hover {
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 767px) {
+  .sobre {
+    height: auto;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .titulo_sobre {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .conteudo_sobre {
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+
+  .sobre img {
+    width: 10%;
+    margin-bottom: 5%;
+  }
+}
