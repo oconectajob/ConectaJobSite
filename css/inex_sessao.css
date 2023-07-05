@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 767px) {
+  .ver_vagas {
+    height: 30rem;
+  }
   .img_vagas {
     display: none;
   }
